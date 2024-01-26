@@ -33,7 +33,7 @@ button_img = pygame.image.load('images/restart.png')
 
 # load music
 pygame.mixer.init()
-bg_music = pygame.mixer.Sound('music/bgmusic.mp3')
+bg_music = pygame.mixer.Sound('music/bgmusic.ogg')
 die_sound = pygame.mixer.Sound('music/die.ogg')
 point_sound = pygame.mixer.Sound('music/point.ogg')
 hit_sound = pygame.mixer.Sound('music/hit.ogg')
